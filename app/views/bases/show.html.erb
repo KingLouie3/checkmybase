@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @basis.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @basis.location %>
+</p>
+
+<%= link_to 'Edit', edit_basis_path(@basis), class: 'btn btn-link' %> |
+<%= link_to 'Back', bases_path, class: 'btn btn-link' %>
