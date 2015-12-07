@@ -69,6 +69,6 @@ class BasesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def basis_params
-      params.require(:base).permit(:name, :location)
+      params.require(:base).permit(:name, :location, :image)
     end
-end
+ end   
